@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*Formatação geral do body*/
+body{
+    background-color: #ffffff;
+    color: rgba(0,0,0,.9);
+}
+
+
+/*Formataão geral dos parágrafos*/
+p{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+figure.foto-legenda{
+    position: relative;
+    border: 4px solid #000000;
+    box-shadow: 1px 1px 4px black;
+}   
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0; /*Devemos setar a opacidade como zero para fazer uma transição pois o padrão é 1*/
+    transition: 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+
+/*Formatação do menu de navegação*/
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
