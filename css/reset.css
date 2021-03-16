@@ -96,6 +96,7 @@ a{
 .footer{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 100px;
 	padding: 5%;
     background-image: linear-gradient(to right, rgb(50, 50, 168), rgb(44, 44, 233));
@@ -121,7 +122,6 @@ a{
 }
 
 .footer a:hover i{
-    /* transform: rotate(-60deg); */
     transform: rotate(-30deg);
     transition: .5s;
 }
