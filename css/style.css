@@ -14,28 +14,6 @@
 	border-right: 2px solid rgb(68, 68, 219);
 }
 
-.noticia-principal h2 {
-	font-size: 12pt;
-	color: rgb(78, 78, 177);
-	background-color: #dddddd; 
-	padding: 5px 0px 5px 10px;
-	margin: 10px 0px 10px 0px;
-	border-radius: 5px;
-}
-
-.cabecalho-artigo h1 {
-	font-size: 20pt;
-	color: #606060;
-	margin-bottom: 0px;
-}
-
-.cabecalho-artigo h2 {
-	font-size: 13pt;
-	color: rgb(78, 78, 177);
-	background-color: #ffffff;
-	margin: 0px;
-}
-
 .direita {
 	text-align: right;
 }

@@ -1,21 +1,26 @@
 @charset "UTF_8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 form{
-    width: 500px;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+}
 
+form fieldset{
+    margin: 10px auto;
+    border-radius: 20px;
 }
 
 input, textarea {
-    font-family: sans-serif;
-    font-weight: normal;
     font-size: 13pt;
     background-color: rgba(255,255,255,.5);
+    outline: none;
+    border-radius: 20px;
+    padding: 0 1em;
 }
 
 input:hover, textarea:hover {
     background-color: #dddddd;
-
 }
 
 legend{
@@ -23,30 +28,60 @@ legend{
     font-weight: bold;
     font-size: 13pt;
     font-family: sans-serif;
-
 } 
 
 fieldset{
-    border-color: #cecece;
+    border-color: rgb(19, 19, 190);
     margin: 20px;
 }
 
-fieldset#sexo{
-    width: 150px;
+.sexo{
+    border: none;
+    margin-left: 16px;
 }
 
-fieldset#usuario{
-    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+.sexo input{
+    margin-left: 16px;
 }
 
-fieldset#endereco{
-    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+.usuario{
+    background: url("../imagens/icone-contato.png") no-repeat 95% 95%;
+    width: inherit;
 }
 
-fieldset#mensagem{
-    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+.endereco{
+    background: url("../imagens/icone-endereco.png") no-repeat 95% 95%;
+    width: inherit;
 }
 
-fieldset#pedido{
-    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+.mensagem{
+    background: url("../imagens/icone-mensagem.png") no-repeat 95% 95%;
+    width: inherit;
 }
+
+.pedido{
+    background: url("../imagens/icone-pagamento.png") no-repeat 95% 95%;
+    width: inherit;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cEnviar{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(92, 92, 194);
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    padding: .8% 2%;
+    cursor: pointer;
+}
+
+#cEnviar:hover{
+    background-color: rgb(22, 22, 219);
+    color: #fff;
+}
+

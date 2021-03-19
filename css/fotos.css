@@ -1,33 +1,5 @@
 @charset "UTF-8";
 
-/* Configuração do título e texto */
-
-.noticia-principal h2 {
-	font-size: 12pt;
-	color: rgb(78, 78, 177);
-	background-color: #dddddd; 
-	padding: 5px 0px 5px 10px;
-	margin: 10px 0px 10px 0px;
-	border-radius: 5px;
-}
-
-.cabecalho-artigo h1 {
-	font-size: 20pt;
-	color: #606060;
-	margin-bottom: 0px;
-}
-
-.cabecalho-artigo h2 {
-	font-size: 13pt;
-	color: rgb(78, 78, 177);
-	background-color: #ffffff;
-	margin: 0px;
-}
-
-.main{
-    padding: 2%;
-}
-
 /*Formatação da minha ul em geral*/
 .album-fotos{
     display: flex;
@@ -56,46 +28,3 @@
     top: 50%;
     left: 50%;
 }
-
-/* Medias Queries */
-
-/* Mobile */
-
-@media(max-width: 425px){
-
-    body, div#interface, .header, .noticia-principal, .feels{
-		width: 100%;
-	}
-
-    .menu{
-        font-size: .5em;
-    }
-}
-
-/* Tablet */
-
-@media(min-width: 426px) and (max-width: 768px){
-
-    body, div#interface, .header, .noticia-principal, .feels{
-		width: 100%;
-	}
-
-    .menu{
-        font-size: .6em;
-    }
-}
-
-/* Laptop */
-
-@media(min-width: 769px) and (max-width: 1224px){
-
-	body, div#interface, .header, .noticia-principal, .feels{
-		width: 100%;
-	}
-
-	.menu{
-		font-size: .8em;
-	}
-}
-
-

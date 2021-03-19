@@ -1,33 +1,5 @@
 @charset "UTF-8";
 
-/* Configuração do título e texto */
-
-.noticia-principal h2 {
-	font-size: 12pt;
-	color: rgb(78, 78, 177);
-	background-color: #dddddd; 
-	padding: 5px 0px 5px 10px;
-	margin: 10px 0px 10px 0px;
-	border-radius: 5px;
-}
-
-.cabecalho-artigo h1 {
-	font-size: 20pt;
-	color: #606060;
-	margin-bottom: 0px;
-}
-
-.cabecalho-artigo h2 {
-	font-size: 13pt;
-	color: rgb(78, 78, 177);
-	background-color: #ffffff;
-	margin: 0px;
-}
-
-.main{
-    padding: 2%;
-}
-
 .tv-radio{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -44,7 +16,6 @@
     width: 100%;
     grid-column-start: 2;
 }
-
 
 /* Medias Queries */
 
@@ -68,7 +39,6 @@
     .musica, .filme{
         grid-column-start: initial;
     }
-
 }
 
 /* Tablet */
@@ -96,5 +66,3 @@
 		font-size: .8em;
 	}
 }
-
-
